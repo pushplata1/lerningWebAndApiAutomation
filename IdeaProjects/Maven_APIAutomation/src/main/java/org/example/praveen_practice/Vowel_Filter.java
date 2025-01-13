@@ -31,8 +31,8 @@ public class Vowel_Filter {
 
 
     public static void main(String [] args) {
-        String s="Praveen";
-        String s2= "Pushp";
+        String s="Test";
+        String s2= "PraveenTest";
        Vowel_Filter v =new Vowel_Filter();
     System.out.println(v.Vowel_List(s));
 
