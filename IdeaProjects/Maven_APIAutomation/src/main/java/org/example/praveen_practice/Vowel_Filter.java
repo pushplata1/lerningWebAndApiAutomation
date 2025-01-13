@@ -20,18 +20,19 @@ public class Vowel_Filter {
     public String reverseStringLogic(String name){
 
         StringBuilder sb = new StringBuilder();
-        for (int i =name.length;i>0;i--){
+        for (int i =name.length();i>0;i--){
 
-            sb.app
+
         }
 
-        return
+        return name;
 
     }
 
 
     public static void main(String [] args) {
         String s="Praveen";
+        String s2= "Pushp";
        Vowel_Filter v =new Vowel_Filter();
     System.out.println(v.Vowel_List(s));
 
