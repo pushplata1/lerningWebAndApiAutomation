@@ -17,6 +17,18 @@ public class Vowel_Filter {
         return  k;
     }
 
+    public String reverseStringLogic(String name){
+
+        StringBuilder sb = new StringBuilder();
+        for (int i =name.length;i>0;i--){
+
+            sb.app
+        }
+
+        return
+
+    }
+
 
     public static void main(String [] args) {
         String s="Praveen";
