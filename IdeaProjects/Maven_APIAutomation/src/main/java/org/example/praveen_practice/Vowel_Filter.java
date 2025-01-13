@@ -4,17 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Vowel_Filter {
-    public static void main(String[] args) {
-        String s="Praveen";
+
+    public List<Character> Vowel_List(String s){
         List <Character> k=new ArrayList<>();
         for(int i=0;i<s.length();i++){
             char chr =s.charAt(i);
             if (chr=='a'||chr=='e'||chr=='i'||chr=='o'||chr=='u'){
                 k.add(chr);
-
             }
 
         }
-        System.out.println(k);
+        return  k;
+    }
+
+
+    public static void main(String [] args) {
+        String s="Praveen";
+       Vowel_Filter v =new Vowel_Filter();
+    System.out.println(v.Vowel_List(s));
+
+
     }
 }
